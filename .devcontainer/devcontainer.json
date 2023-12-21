@@ -1,0 +1,16 @@
+{
+  "name": "Dockerfile",
+  "build": {
+    "context": ".",
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "zsh .devcontainer/postinstall.sh",
+  "remoteUser": "vscode",
+  // "forwardPorts": [],
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["eamodio.gitlens", "ms-azuretools.vscode-docker", "golang.go"]
+    }
+  }
+}

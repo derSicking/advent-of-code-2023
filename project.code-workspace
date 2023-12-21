@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "name": "@root",
+      "path": "."
+    },
+    {
+      "name": "@Day 1",
+      "path": "./day-1"
+    }
+  ],
+  "settings": {}
+}
